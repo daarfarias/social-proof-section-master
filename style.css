@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: Spartan, sans-serif;
+  background-image: url(./images/bg-pattern-top-mobile.svg),url(./images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-color:hsl(0, 0%, 100%);
+}
+
+.wrapper {
+  width: 375px;
+}
+
+.title-box {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+#title {
+  font-size: 2.1em;
+  width: 70%;
+  color: hsl(300, 43%, 22%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  line-height: 1em;
+  text-align: center;
+  font-weight: 700;
+}
+
+#description {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(303, 10%, 53%);
+}
+
+.rated-box {
+  width: 100%;
+}
+
+.box {
+  width: 325px;
+  height: 80px;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.text-box {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.star-icon {
+margin-top:-5px;
+}
+
+#rated {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+
+.texts {
+  width: 327px;
+  height: 250px;
+  margin-top: 20px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+#colton-img,
+#irene-img,
+#anne-img {
+  width: 12%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border-radius: 50%;
+  float: left;
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+}
+
+.name {
+  font-size: 0.9em;
+  margin-top: 25px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+.verified {
+  font-size: 0.9em;
+  color: hsl(333, 80%, 67%);
+}
+
+.text {
+  width: 85%;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 1440px;
+    height: 800px;
+    background-image: url(./images/bg-pattern-top-desktop.svg),url(./images/bg-pattern-bottom-desktop.svg);
+   background-repeat: no-repeat;
+   background-color:hsl(0, 0%, 100%);
+  }
+
+  .wrapper {
+    width: 1120px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 125px 165px 100px 165px;
+  }
+
+  .title-box {
+    width: 50%;
+    height: 50%;
+    margin-top: 0;
+  }
+
+  #title {
+    width: 80%;
+    font-size: 3.1em;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  #description {
+    width: 85%;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .rated-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+  }
+
+  .box {
+    width: 445px;
+    height: 40px;
+  }
+
+  .star-icon {
+    float: left;
+    margin-left: 20px;
+  }
+
+  #rated {
+ margin-top: 0;
+    margin-right: 30px;
+  }
+
+  #rated-box-1 {
+    margin-left: 25px;
+  }
+
+  #rated-box-2 {
+    margin-left: 70px;
+  }
+
+  #rated-box-3 {
+    margin-right: 0;
+  }
+
+  .text-box {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin: 0;
+  }
+
+  .texts {
+    width: 350px;
+    height: 230px;
+  }
+
+  #colton {
+    margin-top: -40px;
+    margin-left: 0;
+  }
+
+  #irene {
+    margin-top: -20px;
+  }
+
+  #anne {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+.text{
+
+width: 87%;
+}
+.attribution {
+  margin-top: -50px;
+  font-size: 11px;
+  text-align: center;
+}
